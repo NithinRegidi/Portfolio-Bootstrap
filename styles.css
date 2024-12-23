@@ -1,0 +1,249 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar-section{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.portfolio-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 35px;
+  width: auto;
+}
+
+.banner-data {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.banner-section {
+  background-color: #191a1d;
+  height: 100vh;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+  
+}
+
+.banner-heading {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.banner-bg-img {
+  width: 280px;
+  margin-bottom: 10px;
+  display: block;
+}
+@media (max-width: 480px) {
+    .banner-bg-img {
+        width: 190px; /* Further reduce width for mobile phones */
+        display: flex;
+        margin: 0 auto; /* Center the image horizontally */
+        display: block; 
+    }
+}
+
+.Nithin {
+  color: #4b6cc1;
+}
+
+.banner-desc {
+  color: #9aa5b1;
+  font-size: 25px;
+}
+
+.banner-button {
+  color: white;
+  background-color: #4b6cc1;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+}
+
+.about-section-top{
+    background-color: #323f4b;
+}
+
+.about-section-heading{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-section-sub-heading{
+    color: #cced00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-section-desc{
+    color: #9aa5b1;
+    font-size: 16px;
+}
+
+.about-section-img{
+    width: 100%;
+}
+
+.skill-section{
+    background-color: #1f2933;
+}
+
+.skill-section-sub-heading{
+    color: #cced00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.skills-card{
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-card-img{
+    width: 90px;
+    height: 90px;
+}
+
+.skills-card-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.projects-section{
+    background-color: #3e4c59;
+}
+
+.projects-section-sub-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #cced00;
+}
+
+.projects-section-heading{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.projects-card{
+    background-color: #323f4b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.projects-card-img{
+    width: 100%;
+}
+
+.projects-card-sub-title{
+    color: #9aa5b1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.projects-card-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.projects-card-desc{
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.projects-card-link{
+    color: #cced00;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.service-section{
+    background-color: #52606d;
+}
+
+.service-sub-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #cced00;
+}
+
+.service-heading{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.service-cards-section{
+    background-color: #323f4b;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.service-card-img{
+    width: 48px;
+    height: 48px;
+}
+
+.service-cards-heading{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.service-cards-desc{
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+
+.workdone-section{
+    background-image: url("./images/portfolio-work-done-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.hr-line{
+    background-color: #ffffff;
+    width: 60px;
+}
+
+.workdone-heading{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.workdone-sub-heading{
+    color: white;
+    font-size: 16px;
+}
