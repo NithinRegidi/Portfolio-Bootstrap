@@ -247,3 +247,43 @@ html{
     color: white;
     font-size: 16px;
 }
+
+.testimonial-section{
+    background-color: #1f2933;
+    padding: 40px;
+}
+
+.test-sub-heading{
+    color: #cced00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.test-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.test-cards{
+    background-color: #323f4b;
+    padding: 20px;
+}
+
+.test-cards-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+.test-card-desc{
+    font-size: 18px;
+    color: #9aa5b1;
+    margin-top: 5px;
+}
+
+.test-card-name{
+    color: #ffffff;
+    font-size: 20ox;
+    font-weight: 500;
+}
